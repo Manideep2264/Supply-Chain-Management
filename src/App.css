@@ -1,0 +1,277 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* height: 10vmin; */
+  pointer-events: none;
+  border-radius: 500px;
+  height: 20px;
+  /* margin-right: 13%; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-food{
+  font-family: "Copperplate Gothic Light";
+}
+
+.App-header {
+  background-color: rgb(97, 105, 109);
+  min-height: 17vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: #c0d0d8;
+  min-height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(21, 1, 1);
+  background-image: url('SCm.png');
+  background-size: cover;
+}
+
+.App-login {
+  border:1px solid rgb(17, 166, 230);
+  background-color: #ffffff;
+  /* padding: 10px; */
+  min-height: 350px;
+  min-width: 350px;
+  display: block;
+  align-items: center;
+  margin-left: 1000px;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(21, 1, 1);
+  /* background-image: url('bg.jpg');
+  background-size: cover; */
+}
+
+.App-reg{
+  background-color: rgb(255, 255, 255);
+  margin-left: 1000px;
+  
+}
+
+.App-row{
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-input{
+  margin-bottom: 20px;
+  /* margin-right: 25px; */
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.App-input-pass{
+  margin-bottom: 20px;
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.eyeBtn{
+  background-color: white;
+  border: none;
+  margin-bottom: 15px;
+  
+}
+
+.home{
+  background-color: rgb(0, 0, 0);
+  min-height: 80vh;
+  width: 100vw;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.card1 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  width: 350px;
+  margin-right: 20px;
+  /* height: 300px; */
+  margin-left: 25px;
+  margin-bottom: 20px;
+ 
+}
+
+.card11 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(255, 250, 250, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  width: 350px;
+  margin-right: 20px;
+  /* height: 300px; */
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.card1_img {
+  width: 20vw;
+  height: 30vh;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.para_card {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 12vh;
+  padding-top: 0px;
+  cursor: pointer;
+  
+  
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.co{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.chat_bot_card{
+  height: 130px;
+  width: 130px;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+.chat_bot_img{
+  height: 120px;
+  width: 120px;
+}
+
+.chat_img{
+  height: 200px;
+}
+
+.chat{
+  text-align: left;
+}
+
+.user{
+  text-align: right;
+}
+
+.send-msg-btn {
+  background-color: #cbd2d9;
+  font-family: "Roboto";
+  height: 52px;
+  border-width: 0;
+  border-radius: 10px;
+  margin: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.user-input {
+  background-color: #cbd2d9;
+  font-family: "Roboto";
+  font-weight: 900;
+  height: 52px;
+  border-width: 0;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 15px;
+}
+
+.msg-from-chatbot-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 300px;
+  margin-left: 10px;
+}
+
+.msg-from-chatbot {
+  color: white;
+  background-color: #e57742;
+  font-family: "Roboto";
+  font-weight: 900;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.msg-to-chatbot-container {
+  text-align: right;
+  margin-left: 350px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.msg-to-chatbot {
+  background-color: #cbd2d9;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.chat_in{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 20px;
+  height: 100%;
+  /* border-left-color: blue;
+  border-left-width: 20px; */
+  border-color: blue;
+  border-width: 30px;
+}
+
+.chat_home{
+  background-color: rgb(0, 0, 0);
+  min-height: 80vh;
+  width: 100vw;
+  align-items: center;
+  /* background-image: url('https://botnation.ai/site/wp-content/uploads/2022/01/chatbot-1-1348x800.png'); */
+  /* text-align: center; */
+  
+}
